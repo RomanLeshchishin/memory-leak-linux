@@ -1,0 +1,192 @@
+=== Monitoring of core events 2025-10-31 22:50:06 ====
+
+Oom:
+2025-10-31T17:05:52.171442+00:00 roman-VirtualBox kernel:  __alloc_pages_may_oom+0x10b/0x1d0
+2025-10-31T17:05:52.172201+00:00 roman-VirtualBox kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+
+Other:
+2025-10-31T17:31:02.414656+00:00 roman-VirtualBox CRON[28585]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T17:45:03.551768+00:00 roman-VirtualBox systemd[2297]: app-org.gnome.Terminal.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:45:06.878716+00:00 roman-VirtualBox systemd[1]: user.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:45:06.879031+00:00 roman-VirtualBox systemd[1]: user-1000.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:50:06.276596+00:00 roman-VirtualBox CRON[31526]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 22:55:01 ====
+
+Oom:
+2025-10-31T17:05:52.171442+00:00 roman-VirtualBox kernel:  __alloc_pages_may_oom+0x10b/0x1d0
+2025-10-31T17:05:52.172201+00:00 roman-VirtualBox kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+
+Other:
+2025-10-31T17:45:03.551768+00:00 roman-VirtualBox systemd[2297]: app-org.gnome.Terminal.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:45:06.878716+00:00 roman-VirtualBox systemd[1]: user.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:45:06.879031+00:00 roman-VirtualBox systemd[1]: user-1000.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:50:06.276596+00:00 roman-VirtualBox CRON[31526]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T17:55:01.251738+00:00 roman-VirtualBox CRON[31664]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:00:03 ====
+
+Oom:
+2025-10-31T17:05:52.171442+00:00 roman-VirtualBox kernel:  __alloc_pages_may_oom+0x10b/0x1d0
+2025-10-31T17:05:52.172201+00:00 roman-VirtualBox kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+
+Other:
+2025-10-31T17:45:06.878716+00:00 roman-VirtualBox systemd[1]: user.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:45:06.879031+00:00 roman-VirtualBox systemd[1]: user-1000.slice: A process of this unit has been killed by the OOM killer.
+2025-10-31T17:50:06.276596+00:00 roman-VirtualBox CRON[31526]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T17:55:01.251738+00:00 roman-VirtualBox CRON[31664]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:00:03.143939+00:00 roman-VirtualBox CRON[31794]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:05:01 ====
+
+Oom:
+2025-10-31T17:05:52.172201+00:00 roman-VirtualBox kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T17:50:06.276596+00:00 roman-VirtualBox CRON[31526]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T17:55:01.251738+00:00 roman-VirtualBox CRON[31664]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:00:03.143939+00:00 roman-VirtualBox CRON[31794]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:05:01.443534+00:00 roman-VirtualBox CRON[31845]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:11:32 ====
+
+Oom:
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:00:03.143939+00:00 roman-VirtualBox CRON[31794]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:05:01.443534+00:00 roman-VirtualBox CRON[31845]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:32.831459+00:00 roman-VirtualBox CRON[31888]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:15:59 ====
+
+Oom:
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:05:01.443534+00:00 roman-VirtualBox CRON[31845]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:32.831459+00:00 roman-VirtualBox CRON[31888]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:15:59.889917+00:00 roman-VirtualBox CRON[31936]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:20:09 ====
+
+Oom:
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:05:01.443534+00:00 roman-VirtualBox CRON[31845]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:32.831459+00:00 roman-VirtualBox CRON[31888]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:15:59.889917+00:00 roman-VirtualBox CRON[31936]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:20:09.496735+00:00 roman-VirtualBox CRON[31983]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:25:01 ====
+
+Oom:
+2025-10-31T17:05:52.172367+00:00 roman-VirtualBox kernel: [  24221]   990 24221     4390      179      128       51         0    81920       96          -900 systemd-oomd
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:11:32.831459+00:00 roman-VirtualBox CRON[31888]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:15:59.889917+00:00 roman-VirtualBox CRON[31936]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:20:09.496735+00:00 roman-VirtualBox CRON[31983]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:22:37.205137+00:00 roman-VirtualBox update-notifier-crash[32036]: systemd-oomd
+2025-10-31T18:25:01.814107+00:00 roman-VirtualBox CRON[32076]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:30:05 ====
+
+Oom:
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:20:09.496735+00:00 roman-VirtualBox CRON[31983]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:22:37.205137+00:00 roman-VirtualBox update-notifier-crash[32036]: systemd-oomd
+2025-10-31T18:25:01.814107+00:00 roman-VirtualBox CRON[32076]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:30:05.291154+00:00 roman-VirtualBox CRON[32123]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:35:01 ====
+
+Oom:
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:22:37.205137+00:00 roman-VirtualBox update-notifier-crash[32036]: systemd-oomd
+2025-10-31T18:25:01.814107+00:00 roman-VirtualBox CRON[32076]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:30:05.291154+00:00 roman-VirtualBox CRON[32123]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:35:01.161625+00:00 roman-VirtualBox CRON[32191]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:40:02 ====
+
+Oom:
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:25:01.814107+00:00 roman-VirtualBox CRON[32076]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:30:05.291154+00:00 roman-VirtualBox CRON[32123]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:35:01.161625+00:00 roman-VirtualBox CRON[32191]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:40:02.202845+00:00 roman-VirtualBox CRON[32232]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+
+=== Monitoring of core events 2025-10-31 23:45:02 ====
+
+Oom:
+2025-10-31T17:05:52.172406+00:00 roman-VirtualBox kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-5106600f-1abb-41de-b554-fc8a571964c3.scope,task=python3,pid=25897,uid=1000
+2025-10-31T17:05:52.172407+00:00 roman-VirtualBox kernel: Out of memory: Killed process 25897 (python3) total-vm:6807000kB, anon-rss:2954684kB, file-rss:152kB, shmem-rss:0kB, UID:1000 pgtables:11868kB oom_score_adj:200
+2025-10-31T18:01:22.031440+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:11:11.270592+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+
+Other:
+2025-10-31T18:26:22.316022+00:00 roman-VirtualBox kernel: rcu: 	Unless rcu_preempt kthread gets sufficient CPU time, OOM is now expected behavior.
+2025-10-31T18:30:05.291154+00:00 roman-VirtualBox CRON[32123]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:35:01.161625+00:00 roman-VirtualBox CRON[32191]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:40:02.202845+00:00 roman-VirtualBox CRON[32232]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+2025-10-31T18:45:02.014944+00:00 roman-VirtualBox CRON[32441]: (roman) CMD (/home/roman/Desktop/oom_events.sh )
+

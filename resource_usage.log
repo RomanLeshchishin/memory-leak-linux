@@ -1,0 +1,300 @@
+=== Monitoring resources: 2025-10-31 22:50:06 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.7Gi       922Mi        34Mi       1.5Gi       2.2Gi
+Used memory: 43.6%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+10:50:06 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+10:50:07 PM  all    0.22    0.44    0.22    0.22    0.00    0.22    0.00    0.00    0.00   98.68
+Average:     all    0.22    0.44    0.22    0.22    0.00    0.22    0.00    0.00    0.00   98.68
+CPU usage: 1.2%
+
+SWAP:
+Swap:        4008956       23720     3985236
+
+Critical events:
+2025-10-31T17:45:13.706751+00:00 roman-VirtualBox gnome-shell[30689]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+2025-10-31T17:45:13.706897+00:00 roman-VirtualBox gnome-shell[30689]: message repeated 2 times: [ Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found]
+2025-10-31T17:45:13.998369+00:00 roman-VirtualBox tracker-miner-fs-3[31216]: (tracker-extract-3:31216): GLib-GIO-WARNING **: 22:45:13.998: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:45:38.921230+00:00 roman-VirtualBox tracker-miner-fs-3[31436]: (tracker-extract-3:31436): GLib-GIO-WARNING **: 22:45:38.920: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:50:06.300373+00:00 roman-VirtualBox tracker-miner-fs-3[31548]: (tracker-extract-3:31548): GLib-GIO-WARNING **: 22:50:06.300: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 22:55:01 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       2.3Gi       304Mi        34Mi       1.5Gi       1.6Gi
+Used memory: 59.3%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+10:55:01 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+10:55:04 PM  all    0.00    0.00    0.00    0.00    0.00    0.08    0.00    0.00    0.00   99.92
+Average:     all    0.00    0.00    0.00    0.00    0.00    0.08    0.00    0.00    0.00   99.92
+CPU usage: 1.5%
+
+SWAP:
+Swap:        4008956       23688     3985268
+
+Critical events:
+2025-10-31T17:45:13.706897+00:00 roman-VirtualBox gnome-shell[30689]: message repeated 2 times: [ Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found]
+2025-10-31T17:45:13.998369+00:00 roman-VirtualBox tracker-miner-fs-3[31216]: (tracker-extract-3:31216): GLib-GIO-WARNING **: 22:45:13.998: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:45:38.921230+00:00 roman-VirtualBox tracker-miner-fs-3[31436]: (tracker-extract-3:31436): GLib-GIO-WARNING **: 22:45:38.920: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:50:06.300373+00:00 roman-VirtualBox tracker-miner-fs-3[31548]: (tracker-extract-3:31548): GLib-GIO-WARNING **: 22:50:06.300: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:55:01.272994+00:00 roman-VirtualBox tracker-miner-fs-3[31684]: (tracker-extract-3:31684): GLib-GIO-WARNING **: 22:55:01.272: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:00:03 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       2.9Gi       119Mi        34Mi       1.1Gi       968Mi
+Used memory: 75.3%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:00:03 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:00:04 PM  all    0.49    0.24    0.49    1.22    0.00    0.24    0.00    0.00    0.00   97.32
+Average:     all    0.49    0.24    0.49    1.22    0.00    0.24    0.00    0.00    0.00   97.32
+CPU usage: 0.2%
+
+SWAP:
+Swap:        4008956       23688     3985268
+
+Critical events:
+2025-10-31T17:45:13.998369+00:00 roman-VirtualBox tracker-miner-fs-3[31216]: (tracker-extract-3:31216): GLib-GIO-WARNING **: 22:45:13.998: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:45:38.921230+00:00 roman-VirtualBox tracker-miner-fs-3[31436]: (tracker-extract-3:31436): GLib-GIO-WARNING **: 22:45:38.920: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:50:06.300373+00:00 roman-VirtualBox tracker-miner-fs-3[31548]: (tracker-extract-3:31548): GLib-GIO-WARNING **: 22:50:06.300: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:55:01.272994+00:00 roman-VirtualBox tracker-miner-fs-3[31684]: (tracker-extract-3:31684): GLib-GIO-WARNING **: 22:55:01.272: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:00:03.172334+00:00 roman-VirtualBox tracker-miner-fs-3[31817]: (tracker-extract-3:31817): GLib-GIO-WARNING **: 23:00:03.172: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:05:01 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.4Gi       124Mi        33Mi       537Mi       402Mi
+Used memory: 89.7%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:05:01 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:05:02 PM  all    0.52    0.77    0.77    3.09    0.00    0.26    0.00    0.00    0.00   94.59
+Average:     all    0.52    0.77    0.77    3.09    0.00    0.26    0.00    0.00    0.00   94.59
+CPU usage: 1.3%
+
+SWAP:
+Swap:        4008956       93052     3915904
+
+Critical events:
+2025-10-31T17:45:38.921230+00:00 roman-VirtualBox tracker-miner-fs-3[31436]: (tracker-extract-3:31436): GLib-GIO-WARNING **: 22:45:38.920: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:50:06.300373+00:00 roman-VirtualBox tracker-miner-fs-3[31548]: (tracker-extract-3:31548): GLib-GIO-WARNING **: 22:50:06.300: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:55:01.272994+00:00 roman-VirtualBox tracker-miner-fs-3[31684]: (tracker-extract-3:31684): GLib-GIO-WARNING **: 22:55:01.272: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:00:03.172334+00:00 roman-VirtualBox tracker-miner-fs-3[31817]: (tracker-extract-3:31817): GLib-GIO-WARNING **: 23:00:03.172: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:05:01.511539+00:00 roman-VirtualBox tracker-miner-fs-3[31864]: (tracker-extract-3:31864): GLib-GIO-WARNING **: 23:05:01.511: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:11:32 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.4Gi       137Mi        28Mi       530Mi       412Mi
+Used memory: 89.5%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:11:32 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:11:43 PM  all    0.07    0.09    0.07    0.02    0.00    0.05    0.00    0.00    0.00   99.70
+Average:     all    0.07    0.09    0.07    0.02    0.00    0.05    0.00    0.00    0.00   99.70
+CPU usage: 1.5%
+
+SWAP:
+Swap:        4008956      727400     3281556
+
+Critical events:
+2025-10-31T17:50:06.300373+00:00 roman-VirtualBox tracker-miner-fs-3[31548]: (tracker-extract-3:31548): GLib-GIO-WARNING **: 22:50:06.300: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T17:55:01.272994+00:00 roman-VirtualBox tracker-miner-fs-3[31684]: (tracker-extract-3:31684): GLib-GIO-WARNING **: 22:55:01.272: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:00:03.172334+00:00 roman-VirtualBox tracker-miner-fs-3[31817]: (tracker-extract-3:31817): GLib-GIO-WARNING **: 23:00:03.172: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:05:01.511539+00:00 roman-VirtualBox tracker-miner-fs-3[31864]: (tracker-extract-3:31864): GLib-GIO-WARNING **: 23:05:01.511: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:11:32.852728+00:00 roman-VirtualBox tracker-miner-fs-3[31909]: (tracker-extract-3:31909): GLib-GIO-WARNING **: 23:11:32.852: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:15:59 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.4Gi       134Mi        28Mi       531Mi       410Mi
+Used memory: 89.5%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:15:59 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:16:00 PM  all    1.14    0.23    1.14    0.46    0.00    0.23    0.00    0.00    0.00   96.80
+Average:     all    1.14    0.23    1.14    0.46    0.00    0.23    0.00    0.00    0.00   96.80
+CPU usage: 23.3%
+
+SWAP:
+Swap:        4008956     1107796     2901160
+
+Critical events:
+2025-10-31T18:00:03.172334+00:00 roman-VirtualBox tracker-miner-fs-3[31817]: (tracker-extract-3:31817): GLib-GIO-WARNING **: 23:00:03.172: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:05:01.511539+00:00 roman-VirtualBox tracker-miner-fs-3[31864]: (tracker-extract-3:31864): GLib-GIO-WARNING **: 23:05:01.511: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:11:32.852728+00:00 roman-VirtualBox tracker-miner-fs-3[31909]: (tracker-extract-3:31909): GLib-GIO-WARNING **: 23:11:32.852: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:11:44.809043+00:00 roman-VirtualBox tracker-miner-fs-3[31923]: (tracker-extract-3:31923): GLib-GIO-WARNING **: 23:11:44.808: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:15:59.908212+00:00 roman-VirtualBox tracker-miner-fs-3[31958]: (tracker-extract-3:31958): GLib-GIO-WARNING **: 23:15:59.908: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:20:09 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.7Gi       154Mi        27Mi       257Mi       158Mi
+Used memory: 96.0%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:20:09 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:20:11 PM  all    0.74    0.37    0.37    0.49    0.00    0.25    0.00    0.00    0.00   97.78
+Average:     all    0.74    0.37    0.37    0.49    0.00    0.25    0.00    0.00    0.00   97.78
+CPU usage: 0.5%
+
+SWAP:
+Swap:        4008956     1107348     2901608
+
+Critical events:
+2025-10-31T18:05:01.511539+00:00 roman-VirtualBox tracker-miner-fs-3[31864]: (tracker-extract-3:31864): GLib-GIO-WARNING **: 23:05:01.511: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:11:32.852728+00:00 roman-VirtualBox tracker-miner-fs-3[31909]: (tracker-extract-3:31909): GLib-GIO-WARNING **: 23:11:32.852: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:11:44.809043+00:00 roman-VirtualBox tracker-miner-fs-3[31923]: (tracker-extract-3:31923): GLib-GIO-WARNING **: 23:11:44.808: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:15:59.908212+00:00 roman-VirtualBox tracker-miner-fs-3[31958]: (tracker-extract-3:31958): GLib-GIO-WARNING **: 23:15:59.908: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:20:09.532391+00:00 roman-VirtualBox tracker-miner-fs-3[32005]: (tracker-extract-3:32005): GLib-GIO-WARNING **: 23:20:09.532: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:25:01 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.6Gi       129Mi        26Mi       378Mi       261Mi
+Used memory: 93.3%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:25:01 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:25:03 PM  all    0.77    0.38    0.19    0.19    0.00    0.19    0.00    0.00    0.00   98.27
+Average:     all    0.77    0.38    0.19    0.19    0.00    0.19    0.00    0.00    0.00   98.27
+CPU usage: 0.8%
+
+SWAP:
+Swap:        4008956     1874144     2134812
+
+Critical events:
+2025-10-31T18:11:32.852728+00:00 roman-VirtualBox tracker-miner-fs-3[31909]: (tracker-extract-3:31909): GLib-GIO-WARNING **: 23:11:32.852: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:11:44.809043+00:00 roman-VirtualBox tracker-miner-fs-3[31923]: (tracker-extract-3:31923): GLib-GIO-WARNING **: 23:11:44.808: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:15:59.908212+00:00 roman-VirtualBox tracker-miner-fs-3[31958]: (tracker-extract-3:31958): GLib-GIO-WARNING **: 23:15:59.908: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:20:09.532391+00:00 roman-VirtualBox tracker-miner-fs-3[32005]: (tracker-extract-3:32005): GLib-GIO-WARNING **: 23:20:09.532: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:25:01.836464+00:00 roman-VirtualBox tracker-miner-fs-3[32097]: (tracker-extract-3:32097): GLib-GIO-WARNING **: 23:25:01.836: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:30:05 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.6Gi       138Mi        26Mi       333Mi       217Mi
+Used memory: 94.5%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:30:05 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:30:07 PM  all    0.49    0.37    0.25    0.25    0.00    0.12    0.00    0.00    0.00   98.52
+Average:     all    0.49    0.37    0.25    0.25    0.00    0.12    0.00    0.00    0.00   98.52
+CPU usage: 0.2%
+
+SWAP:
+Swap:        4008956     2439380     1569576
+
+Critical events:
+2025-10-31T18:11:44.809043+00:00 roman-VirtualBox tracker-miner-fs-3[31923]: (tracker-extract-3:31923): GLib-GIO-WARNING **: 23:11:44.808: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:15:59.908212+00:00 roman-VirtualBox tracker-miner-fs-3[31958]: (tracker-extract-3:31958): GLib-GIO-WARNING **: 23:15:59.908: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:20:09.532391+00:00 roman-VirtualBox tracker-miner-fs-3[32005]: (tracker-extract-3:32005): GLib-GIO-WARNING **: 23:20:09.532: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:25:01.836464+00:00 roman-VirtualBox tracker-miner-fs-3[32097]: (tracker-extract-3:32097): GLib-GIO-WARNING **: 23:25:01.836: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:30:05.320108+00:00 roman-VirtualBox tracker-miner-fs-3[32145]: (tracker-extract-3:32145): GLib-GIO-WARNING **: 23:30:05.319: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:35:01 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.7Gi       124Mi        25Mi       234Mi       113Mi
+Used memory: 97.2%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:35:01 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:35:02 PM  all    0.00    0.00    0.25    2.02    0.00    0.25    0.00    0.00    0.00   97.48
+Average:     all    0.00    0.00    0.25    2.02    0.00    0.25    0.00    0.00    0.00   97.48
+CPU usage: 0.0%
+
+SWAP:
+Swap:        4008956     2936060     1072896
+
+Critical events:
+2025-10-31T18:20:09.532391+00:00 roman-VirtualBox tracker-miner-fs-3[32005]: (tracker-extract-3:32005): GLib-GIO-WARNING **: 23:20:09.532: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:25:01.836464+00:00 roman-VirtualBox tracker-miner-fs-3[32097]: (tracker-extract-3:32097): GLib-GIO-WARNING **: 23:25:01.836: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:30:05.320108+00:00 roman-VirtualBox tracker-miner-fs-3[32145]: (tracker-extract-3:32145): GLib-GIO-WARNING **: 23:30:05.319: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:30:39.011703+00:00 roman-VirtualBox tracker-miner-fs-3[32165]: (tracker-extract-3:32165): GLib-GIO-WARNING **: 23:30:39.011: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:35:01.223731+00:00 roman-VirtualBox tracker-miner-fs-3[32212]: (tracker-extract-3:32212): GLib-GIO-WARNING **: 23:35:01.223: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:40:02 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       3.7Gi       157Mi        25Mi       244Mi       153Mi
+Used memory: 96.2%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:40:02 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:40:12 PM  all    0.10    0.07    0.02    0.30    0.00    0.05    0.00    0.00    0.00   99.45
+Average:     all    0.10    0.07    0.02    0.30    0.00    0.05    0.00    0.00    0.00   99.45
+CPU usage: 1.1%
+
+SWAP:
+Swap:        4008956     3615428      393528
+
+Critical events:
+2025-10-31T18:30:05.320108+00:00 roman-VirtualBox tracker-miner-fs-3[32145]: (tracker-extract-3:32145): GLib-GIO-WARNING **: 23:30:05.319: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:30:39.011703+00:00 roman-VirtualBox tracker-miner-fs-3[32165]: (tracker-extract-3:32165): GLib-GIO-WARNING **: 23:30:39.011: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:35:01.223731+00:00 roman-VirtualBox tracker-miner-fs-3[32212]: (tracker-extract-3:32212): GLib-GIO-WARNING **: 23:35:01.223: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:40:02.228241+00:00 roman-VirtualBox tracker-miner-fs-3[32253]: (tracker-extract-3:32253): GLib-GIO-WARNING **: 23:40:02.228: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:40:12.478011+00:00 roman-VirtualBox tracker-miner-fs-3[32265]: (tracker-extract-3:32265): GLib-GIO-WARNING **: 23:40:12.477: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
+=== Monitoring resources: 2025-10-31 23:45:02 ====
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       936Mi       2.7Gi        28Mi       418Mi       2.9Gi
+Used memory: 23.9%
+
+CPU:
+Linux 6.14.0-34-generic (roman-VirtualBox) 	10/31/2025 	_x86_64_	(4 CPU)
+
+11:45:02 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+11:45:03 PM  all    1.98    0.44    0.88    0.22    0.00    0.66    0.00    0.00    0.00   95.81
+Average:     all    1.98    0.44    0.88    0.22    0.00    0.66    0.00    0.00    0.00   95.81
+CPU usage: 2.8%
+
+SWAP:
+Swap:        4008956      191760     3817196
+
+Critical events:
+2025-10-31T18:30:39.011703+00:00 roman-VirtualBox tracker-miner-fs-3[32165]: (tracker-extract-3:32165): GLib-GIO-WARNING **: 23:30:39.011: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:35:01.223731+00:00 roman-VirtualBox tracker-miner-fs-3[32212]: (tracker-extract-3:32212): GLib-GIO-WARNING **: 23:35:01.223: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:40:02.228241+00:00 roman-VirtualBox tracker-miner-fs-3[32253]: (tracker-extract-3:32253): GLib-GIO-WARNING **: 23:40:02.228: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:40:12.478011+00:00 roman-VirtualBox tracker-miner-fs-3[32265]: (tracker-extract-3:32265): GLib-GIO-WARNING **: 23:40:12.477: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-10-31T18:45:02.042547+00:00 roman-VirtualBox tracker-miner-fs-3[32461]: (tracker-extract-3:32461): GLib-GIO-WARNING **: 23:45:02.042: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+
+
